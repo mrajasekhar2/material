@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <slide
+        android:duration="@android:integer/config_longAnimTime"
+        android:interpolator="@android:interpolator/anticipate_overshoot"
+        android:slideEdge="right" />
+
+</transitionSet>
