@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hello World!" />
+
+    <!--    <TextView style="@style/GreenTextenText" />-->
+<LinearLayout
+    android:layout_width="wrap_content"
+android:id="@+id/ll_shared"
+   android:layout_gravity="center" android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/im_image"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+ android:transitionName="im_image"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_launcher_background"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:text="hey its u!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  android:transitionName="tv_shared"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv_shared"/>
+</LinearLayout>
+
+</LinearLayout>
